@@ -1,0 +1,11 @@
+# Dissecting a variable
+n = (input('Digite algo: '))
+print(f'O tipo do valor {type(n)}')
+print('O que você digitou é um número? {}'.format(n.isnumeric()))
+print('O que você digitou é decimal? {}'.format(n.isdecimal()))
+print('O que você digitou é alfabético? {}'.format(n.isalpha()))
+print('O que você digitou é alfanumérico? {}'.format(n.isalnum()))
+print('O que você digitou está maiúsculo? {}'.format(n.isupper()))
+print('O que você digitou está minúsculo? {}'.format(n.islower()))
+print('O que você digitou contém apenas espaços? {}'.format(n.isspace()))
+print('O retorno tem que aparecer agora {}. Apareceu?'.format(n.istitle()))
